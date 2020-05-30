@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="10" useXmlUI="false">
+    <image name="bg3.jpg" type="multi"  />
+    <image name="kinder.png" type="multi"  />
+    <image name="kinderhome.png" type="multi"  />
+    <theme name="Theme">
+        <val key="@includeNativeBool" value="true" />
+        <val key="Button.bgColor" value="cccc" />
+        <val key="Button.fgColor" value="33ff" />
+        <val key="Button.marUnit" value="2,2,2,2" />
+        <val key="Button.margin" value="1.0,1.0,1.0,1.0" />
+        <val key="Button.padUnit" value="2,2,2,2" />
+        <val key="Button.padding" value="1.0,1.0,1.0,1.0" />
+        <val key="Button.transparency" value="228" />
+        <val key="Form.bgImage" value="bg3.jpg" />
+        <val key="Form.bgType" value="33" />
+        <val key="Label.bgColor" value="6666" />
+        <val key="Label.fgColor" value="6666ff" />
+        <val key="Label.transparency" value="253" />
+        <val key="SideCommand.align" value="1" />
+        <val key="SideCommand.bgColor" value="99ff" />
+        <border key="SideCommand.border" type="empty" />
+        <val key="SideCommand.fgColor" value="ffffff" />
+        <font key="SideCommand.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.0" />
+        <val key="SideCommand.margin" value="0.0,1.0,0.0,0.0" />
+        <val key="SideCommand.padUnit" value="2,2,2,2" />
+        <val key="SideCommand.padding" value="3.0,3.0,3.0,3.0" />
+        <val key="SideCommand.press#bgColor" value="6666ff" />
+        <val key="SideCommand.press#derive" value="SideCommand" />
+        <val key="SideCommand.sel#bgColor" value="6666ff" />
+        <val key="SideCommand.sel#derive" value="SideCommand" />
+        <val key="SideCommand.textDecoration" value="0" />
+        <val key="SideCommand.transparency" value="255" />
+        <val key="SideNavigationPanel.bgColor" value="ffffff" />
+        <val key="SideNavigationPanel.transparency" value="255" />
+        <val key="TextField.bgColor" value="ccff" />
+        <val key="TextField.fgColor" value="ccccff" />
+        <val key="TextField.sel#bgColor" value="cccc" />
+        <val key="TextField.sel#fgColor" value="ff6666" />
+        <val key="TextField.sel#transparency" value="98" />
+        <val key="TextField.transparency" value="98" />
+        <val key="Title.bgColor" value="9999ff" />
+        <val key="Title.fgColor" value="3333ff" />
+        <val key="Title.transparency" value="219" />
+        <val key="button.press#bgColor" value="ff6666" />
+        <val key="button.press#fgColor" value="33ffff" />
+        <val key="button.press#transparency" value="150" />
+        <val key="button.sel#bgColor" value="ff6666" />
+        <val key="button.sel#fgColor" value="33ffff" />
+        <val key="button.sel#transparency" value="150" />
+    </theme>
+</resource>
