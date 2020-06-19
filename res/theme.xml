@@ -36,6 +36,7 @@
         <val key="SideNavigationPanel.transparency" value="255" />
         <val key="TextField.bgColor" value="ccff" />
         <val key="TextField.fgColor" value="ccccff" />
+        <font key="TextField.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.0" />
         <val key="TextField.sel#bgColor" value="cccc" />
         <val key="TextField.sel#fgColor" value="ff6666" />
         <val key="TextField.sel#transparency" value="98" />

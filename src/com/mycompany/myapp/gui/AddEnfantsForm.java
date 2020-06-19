@@ -41,7 +41,7 @@ public class AddEnfantsForm extends Form{
         TextField Amed= new TextField("", "medication");
         TextField dateP= new TextField("", "20XX-XX-XX");
         TextField ANumMed= new TextField("", "medication number");
-        Button btnValider = new Button("Add task");
+        Button btnValider = new Button("Add Enfant");
         String f ="f";
         String m ="m";
         String datez ="20";

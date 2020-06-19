@@ -26,6 +26,7 @@ import com.codename1.ui.layouts.BorderLayout;
 import com.codename1.ui.layouts.BoxLayout;
 import com.codename1.ui.plaf.UIManager;
 import com.codename1.ui.util.Resources;
+import com.mycompany.myapp.clubform;
 import com.teknikindustries.bulksms.SMS;
 
 /**
@@ -55,7 +56,8 @@ public class SendMessage extends Form{
         //ImageViewer imgCon = new ImageViewer();
         //ImageViewer rouge = new ImageViewer(theme.getImage("logo.png"));
         tb.addMaterialCommandToSideMenu("Home", FontImage.MATERIAL_HOME, e -> new HomeForm(theme).show()); 
-        tb.addMaterialCommandToSideMenu("Enfants", FontImage.MATERIAL_CHILD_CARE, e -> new EnfantWindow(theme).show()); 
+        tb.addMaterialCommandToSideMenu("Enfants", FontImage.MATERIAL_CHILD_CARE, e -> new EnfantWindow(theme).show());
+        tb.addMaterialCommandToSideMenu("CLub", FontImage.MATERIAL_HOME,  e-> new clubform(theme).show());
         tb.addMaterialCommandToSideMenu("Events", FontImage.MATERIAL_CHILD_FRIENDLY, e -> new EventWindow(theme).show());
 
         tb.addMaterialCommandToSideMenu("info", FontImage.MATERIAL_INFO,  e-> new Info(theme).show());
@@ -66,7 +68,7 @@ public class SendMessage extends Form{
         
 
         
-        Message m = new Message("-------write your message here---------");
+        Message m = new Message("-------Message from the kindergarden---------");
         
         
         

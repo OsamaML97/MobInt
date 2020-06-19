@@ -20,6 +20,7 @@ import com.codename1.ui.layouts.BorderLayout;
 import com.codename1.ui.layouts.BoxLayout;
 import com.codename1.ui.plaf.UIManager;
 import com.codename1.ui.util.Resources;
+import com.mycompany.myapp.clubform;
 
 /**
  *
@@ -48,6 +49,7 @@ Form current;
         //ImageViewer rouge = new ImageViewer(theme.getImage("logo.png"));
         tb.addMaterialCommandToSideMenu("Enfants", FontImage.MATERIAL_CHILD_CARE, e -> new EnfantWindow(theme).show()); 
         tb.addMaterialCommandToSideMenu("Events", FontImage.MATERIAL_CHILD_FRIENDLY, e -> new EventWindow(theme).show());
+        tb.addMaterialCommandToSideMenu("CLub", FontImage.MATERIAL_HOME,  e-> new clubform(theme).show());
         tb.addMaterialCommandToSideMenu("Send a Message", FontImage.MATERIAL_MESSAGE, e -> new SendMessage(theme).show());
         tb.addMaterialCommandToSideMenu("info", FontImage.MATERIAL_INFO,  e-> new Info(theme).show());
         

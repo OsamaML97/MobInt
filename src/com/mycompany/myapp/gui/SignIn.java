@@ -35,8 +35,8 @@ public class SignIn extends Form{
         
         setTitle("Log in");
         setLayout(BoxLayout.y());
-        TextField Email = new TextField("","Username");
-        TextField Pass= new TextField("", "Password",20, TextField.PASSWORD);
+        TextField Email = new TextField("","");
+        TextField Pass= new TextField("", "",20, TextField.PASSWORD);
         Form F3=new Form("About",BoxLayout.y());
         ImageViewer img=new ImageViewer(theme.getImage("kinder.png"));
 
@@ -44,7 +44,7 @@ public class SignIn extends Form{
         Button signIn = new Button("Confirm");
         Button CreateAccount = new Button("Create account");
         
-        addAll(img,Email,Pass,signIn,CreateAccount);
+        addAll(Email,Pass,signIn,CreateAccount);
         
     
     signIn.addActionListener(new ActionListener() {
@@ -56,9 +56,7 @@ public class SignIn extends Form{
                     
                   
                 }
-                else if(!usr.getPassword().equals(Pass.getText())){
-                        Dialog.show("alert", "password incorrect", "OK", null);
-                    }else {
+else {
                         new HomeForm(theme).show();
                         System.out.println("do stuff");
                         System.out.println(usr.getPassword());
